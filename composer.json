@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-              "SqlFunctionRepositoryServiceProvider"
+              "MichaelRubel\\SqlFunctionRepository\\SqlFunctionRepositoryServiceProvider"
             ]
         }
     },
