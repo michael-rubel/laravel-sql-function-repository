@@ -30,7 +30,7 @@ composer require michael-rubel/laravel-sql-function-repository
 
 Publish the config:
 ```bash
-php artisan vendor:publish --tag="package-template-config"
+php artisan vendor:publish --tag="sql-function-repository-config"
 ```
 
 ## Testing

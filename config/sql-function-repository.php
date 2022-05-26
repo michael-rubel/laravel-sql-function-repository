@@ -4,13 +4,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Package Configuration
+    | SQL Function Repository Configuration
     |--------------------------------------------------------------------------
     |
-    | Your config here.
+    | Database connection & base select.
     |
     */
 
-    'key' => 'value',
+    'connection' => 'default',
+    'select'     => 'select * from',
 
 ];
