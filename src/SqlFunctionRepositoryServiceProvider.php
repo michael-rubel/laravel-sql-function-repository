@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MichaelRubel\PackageTemplate;
+namespace MichaelRubel\SqlFunctionRepository;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

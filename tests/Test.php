@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelRubel\PackageTemplate\Tests;
+namespace MichaelRubel\SqlFunctionRepository\Tests;
 
 class Test extends TestCase
 {

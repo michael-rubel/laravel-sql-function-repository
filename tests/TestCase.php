@@ -1,8 +1,8 @@
 <?php
 
-namespace MichaelRubel\PackageTemplate\Tests;
+namespace MichaelRubel\SqlFunctionRepository\Tests;
 
-use MichaelRubel\PackageTemplate\SqlFunctionRepositoryServiceProvider;
+use MichaelRubel\SqlFunctionRepository\SqlFunctionRepositoryServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
