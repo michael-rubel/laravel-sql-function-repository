@@ -24,6 +24,11 @@ Install the package using composer:
 composer require michael-rubel/laravel-sql-function-repository
 ```
 
+Publish the config, set up basic connection and select:
+```bash
+php artisan vendor:publish --tag="sql-function-repository-config"
+```
+
 ## Usage
 ```php
 $repository = app(SqlFunctionRepository::class);
@@ -31,11 +36,6 @@ $repository->runDatabaseFunction('yourFunctionName', [
     'functionParameter1',
     'functionParameter2',
 ]);
-```
-
-Publish the config:
-```bash
-php artisan vendor:publish --tag="sql-function-repository-config"
 ```
 
 ## Testing
