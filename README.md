@@ -8,7 +8,8 @@
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/michael-rubel/laravel-sql-function-repository/run-tests/main?style=flat-square&label=tests&logo=github)](https://github.com/michael-rubel/laravel-sql-function-repository/actions)
 [![PHPStan](https://img.shields.io/github/workflow/status/michael-rubel/laravel-sql-function-repository/phpstan/main?style=flat-square&label=larastan&logo=laravel)](https://github.com/michael-rubel/laravel-sql-function-repository/actions)
 
-This packages provides repository class to execute SQL functions available in the PostgreSQL database.
+This packages provides repository class to execute SQL functions available in the database.
+Currently, only `PostgreSQL` database is supported, but if you want to add support for your database, contributions are welcomed.
 
 ---
 
