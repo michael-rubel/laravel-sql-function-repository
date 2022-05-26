@@ -24,7 +24,7 @@ class SqlFunctionRepository
         }
 
         if (is_null($this->select)) {
-            $this->select = config('sql-function-repository.select', 'select * from');
+            $this->select = config('sql-function-repository.select', 'select * from public');
         }
     }
 

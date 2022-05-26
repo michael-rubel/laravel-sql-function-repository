@@ -12,6 +12,6 @@ return [
     */
 
     'connection' => 'default',
-    'select'     => 'select * from',
+    'select'     => 'select * from public',
 
 ];

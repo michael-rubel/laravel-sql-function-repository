@@ -5,7 +5,7 @@ namespace MichaelRubel\SqlFunctionRepository\Tests;
 class SqlFunctionRepositoryTest extends TestCase
 {
     /** @test */
-    public function examplePackageTest()
+    public function testCanRunSqlFunction()
     {
         $this->assertTrue(true);
     }

@@ -18,7 +18,7 @@ trait BuildsSqlFunctions
             fn ($param) => '?, '
         );
 
-        return $this->select . ' ' . $name . str($prepareForBindings)
+        return $this->select . '.' . $name . str($prepareForBindings)
             ->replaceLast(', ', '')
             ->start('(')
             ->finish(')');
