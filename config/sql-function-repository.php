@@ -1,17 +1,31 @@
 <?php
 
+use Illuminate\Support\Facades\DB;
+
 return [
 
     /*
     |--------------------------------------------------------------------------
-    | SQL Function Repository Configuration
+    | Database Connection Name
     |--------------------------------------------------------------------------
     |
-    | Database connection & base select.
+    | Database connection name to use by the repository.
+    |
+    | Default: `pgsql`
     |
     */
 
-    'connection' => 'default',
-    'select'     => 'select * from public',
+    'connection' => DB::getDefaultConnection(),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Default select statement
+    |--------------------------------------------------------------------------
+    |
+    | Default: `select * from `
+    |
+    */
+
+    'select' => 'select * from ',
 
 ];
