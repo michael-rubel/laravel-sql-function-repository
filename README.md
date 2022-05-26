@@ -1,4 +1,4 @@
-![Laravel SQL Function Repository](https://user-images.githubusercontent.com/37669560/161713670-e6d795c0-9ddf-4458-9eb5-d596a5b9399c.png)
+![Laravel SQL Function Repository](https://user-images.githubusercontent.com/37669560/170489652-ac9b8c4c-c368-441e-92fa-8569b22ffb58.png)
 
 # Laravel SQL Function Repository
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/michael-rubel/laravel-sql-function-repository.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-sql-function-repository)
