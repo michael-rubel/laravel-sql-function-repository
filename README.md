@@ -1,22 +1,14 @@
-![Laravel Package Template](https://user-images.githubusercontent.com/37669560/161713670-e6d795c0-9ddf-4458-9eb5-d596a5b9399c.png)
+![Laravel SQL Function Repository](https://user-images.githubusercontent.com/37669560/161713670-e6d795c0-9ddf-4458-9eb5-d596a5b9399c.png)
 
-# Laravel Package Template
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/michael-rubel/laravel-package-template.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-package-template)
-[![Total Downloads](https://img.shields.io/packagist/dt/michael-rubel/laravel-package-template.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-package-template)
-[![Code Quality](https://img.shields.io/scrutinizer/quality/g/michael-rubel/laravel-package-template.svg?style=flat-square&logo=scrutinizer)](https://scrutinizer-ci.com/g/michael-rubel/laravel-package-template/?branch=main)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/michael-rubel/laravel-package-template.svg?style=flat-square&logo=scrutinizer)](https://scrutinizer-ci.com/g/michael-rubel/laravel-package-template/?branch=main)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/michael-rubel/laravel-package-template/run-tests/main?style=flat-square&label=tests&logo=github)](https://github.com/michael-rubel/laravel-package-template/actions)
-[![PHPStan](https://img.shields.io/github/workflow/status/michael-rubel/laravel-package-template/phpstan/main?style=flat-square&label=larastan&logo=laravel)](https://github.com/michael-rubel/laravel-package-template/actions)
+# Laravel SQL Function Repository
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/michael-rubel/laravel-sql-function-repository.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-sql-function-repository)
+[![Total Downloads](https://img.shields.io/packagist/dt/michael-rubel/laravel-sql-function-repository.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-sql-function-repository)
+[![Code Quality](https://img.shields.io/scrutinizer/quality/g/michael-rubel/laravel-sql-function-repository.svg?style=flat-square&logo=scrutinizer)](https://scrutinizer-ci.com/g/michael-rubel/laravel-sql-function-repository/?branch=main)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/michael-rubel/laravel-sql-function-repository.svg?style=flat-square&logo=scrutinizer)](https://scrutinizer-ci.com/g/michael-rubel/laravel-sql-function-repository/?branch=main)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/michael-rubel/laravel-sql-function-repository/run-tests/main?style=flat-square&label=tests&logo=github)](https://github.com/michael-rubel/laravel-sql-function-repository/actions)
+[![PHPStan](https://img.shields.io/github/workflow/status/michael-rubel/laravel-sql-function-repository/phpstan/main?style=flat-square&label=larastan&logo=laravel)](https://github.com/michael-rubel/laravel-sql-function-repository/actions)
 
-It is a ready template for Laravel packages.
-
-### What's inside
-- Basic skeleton with Service Provider and configuration file;
-- Laravel Package Tools by Spatie for easier package management;
-- PHPStan/larastan & CodeSniffer code quality checks;
-- Ready-to-use GitHub Action scripts for testing;
-
-Fill or change it the way you like.
+This packages provides repository class to execute SQL functions available in the database.
 
 ---
 
@@ -28,7 +20,7 @@ The package requires PHP `^8.x` and Laravel `^8.71` or `^9.0`.
 ## Installation
 Install the package using composer:
 ```bash
-composer require michael-rubel/laravel-package-template
+composer require michael-rubel/laravel-sql-function-repository
 ```
 
 ## Usage

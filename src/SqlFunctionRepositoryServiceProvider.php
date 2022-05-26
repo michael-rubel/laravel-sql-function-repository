@@ -7,7 +7,7 @@ namespace MichaelRubel\PackageTemplate;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class TemplateServiceProvider extends PackageServiceProvider
+class SqlFunctionRepositoryServiceProvider extends PackageServiceProvider
 {
     /**
      * Configure the package.
@@ -19,7 +19,7 @@ class TemplateServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('laravel-package-template')
+            ->name('laravel-sql-function-repository')
             ->hasConfigFile();
     }
 }

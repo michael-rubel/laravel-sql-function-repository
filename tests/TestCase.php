@@ -2,7 +2,7 @@
 
 namespace MichaelRubel\PackageTemplate\Tests;
 
-use MichaelRubel\PackageTemplate\TemplateServiceProvider;
+use MichaelRubel\PackageTemplate\SqlFunctionRepositoryServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -15,7 +15,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app): array
     {
         return [
-            TemplateServiceProvider::class,
+            SqlFunctionRepositoryServiceProvider::class,
         ];
     }
 

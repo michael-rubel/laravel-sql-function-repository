@@ -1,12 +1,14 @@
 {
-    "name": "michael-rubel/laravel-package-template",
+    "name": "michael-rubel/laravel-sql-function-repository",
     "description": "It is an example template for Laravel packages. Fill or change it the way you like.",
     "keywords": [
         "michael-rubel",
         "laravel",
-        "laravel-package-template"
+        "laravel-sql-function-repository",
+        "database",
+        "sql"
     ],
-    "homepage": "https://github.com/michael-rubel/laravel-package-template",
+    "homepage": "https://github.com/michael-rubel/laravel-sql-function-repository",
     "license": "MIT",
     "authors": [
         {
@@ -30,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MichaelRubel\\PackageTemplate\\": "src"
+            "MichaelRubel\\SqlFunctionRepository\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MichaelRubel\\PackageTemplate\\Tests\\": "tests"
+            "MichaelRubel\\SqlFunctionRepository\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-              "MichaelRubel\\PackageTemplate\\TemplateServiceProvider"
+              "SqlFunctionRepositoryServiceProvider"
             ]
         }
     },
