@@ -50,9 +50,7 @@ class PostgresqlFunctionRepository implements SqlFunctionRepository
      */
     protected function buildSqlFunction(string $name, array $parameters): string
     {
-        $prepareForBindings = collect($parameters)->implode(
-            fn ($param) => '?, '
-        );
+        $prepareForBindings = collect($parameters)->implode(fn () => '?, ');
 
         return $this->select . $name . str($prepareForBindings)
                 ->replaceLast(', ', '')
