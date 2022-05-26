@@ -8,7 +8,7 @@
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/michael-rubel/laravel-sql-function-repository/run-tests/main?style=flat-square&label=tests&logo=github)](https://github.com/michael-rubel/laravel-sql-function-repository/actions)
 [![PHPStan](https://img.shields.io/github/workflow/status/michael-rubel/laravel-sql-function-repository/phpstan/main?style=flat-square&label=larastan&logo=laravel)](https://github.com/michael-rubel/laravel-sql-function-repository/actions)
 
-This packages provides repository class to execute SQL functions available in the database.
+This packages provides repository class to execute SQL functions available in the PostgreSQL database.
 
 ---
 
@@ -25,7 +25,11 @@ composer require michael-rubel/laravel-sql-function-repository
 
 ## Usage
 ```php
-// Your description.
+$repository = app(SqlFunctionRepository::class);
+$repository->runDatabaseFunction('yourFunctionName', [
+    'functionParameter1',
+    'functionParameter2',
+]);
 ```
 
 Publish the config:
