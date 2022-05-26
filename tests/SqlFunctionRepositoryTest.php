@@ -2,7 +2,7 @@
 
 namespace MichaelRubel\SqlFunctionRepository\Tests;
 
-class Test extends TestCase
+class SqlFunctionRepositoryTest extends TestCase
 {
     /** @test */
     public function examplePackageTest()
