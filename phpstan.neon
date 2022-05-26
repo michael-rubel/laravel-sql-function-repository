@@ -8,6 +8,10 @@ parameters:
 
     level: max
 
+    ignoreErrors:
+        - '#Property MichaelRubel\\SqlFunctionRepository\\Repositories\\PostgresqlFunctionRepository(.*) \(string\|null\) does not accept mixed\.#'
+        - '#Cannot call method replaceLast\(\) on mixed\.#'
+
     checkMissingIterableValueType: false
 
     reportUnmatchedIgnoredErrors: false
