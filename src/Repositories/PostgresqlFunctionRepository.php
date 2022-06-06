@@ -31,13 +31,14 @@ class PostgresqlFunctionRepository implements SqlFunctionRepository
      *
      * @param string $name
      * @param array  $parameters
+     * @param string $as
      *
      * @return array
      */
-    public function runDatabaseFunction(string $name, array $parameters = []): array
+    public function runDatabaseFunction(string $name, array $parameters = [], string $as = ''): array
     {
         return DB::connection($this->connection)->select(
-            $this->buildSqlFunction($name, $parameters),
+            $this->buildSqlFunction($name, $parameters, $as),
             $parameters
         );
     }
@@ -45,16 +46,23 @@ class PostgresqlFunctionRepository implements SqlFunctionRepository
     /**
      * @param string $name
      * @param array  $parameters
+     * @param string $as
      *
      * @return string
      */
-    protected function buildSqlFunction(string $name, array $parameters): string
+    protected function buildSqlFunction(string $name, array $parameters, string $as): string
     {
         $prepareForBindings = collect($parameters)->implode(fn () => '?, ');
 
-        return $this->select . $name . str($prepareForBindings)
-                ->replaceLast(', ', '')
-                ->start('(')
-                ->finish(')');
+        $function = str($prepareForBindings)
+            ->replaceLast(', ', '')
+            ->start('(')
+            ->finish(')');
+
+        if (! empty($as)) {
+            $function = $function->finish(' as ' . $as);
+        }
+
+        return $this->select . $name . $function;
     }
 }
