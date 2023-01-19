@@ -5,15 +5,15 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/michael-rubel/laravel-sql-function-repository.svg?style=flat-square&logo=packagist)](https://packagist.org/packages/michael-rubel/laravel-sql-function-repository)
 [![Code Quality](https://img.shields.io/scrutinizer/quality/g/michael-rubel/laravel-sql-function-repository.svg?style=flat-square&logo=scrutinizer)](https://scrutinizer-ci.com/g/michael-rubel/laravel-sql-function-repository/?branch=main)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/michael-rubel/laravel-sql-function-repository.svg?style=flat-square&logo=scrutinizer)](https://scrutinizer-ci.com/g/michael-rubel/laravel-sql-function-repository/?branch=main)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/michael-rubel/laravel-sql-function-repository/run-tests/main?style=flat-square&label=tests&logo=github)](https://github.com/michael-rubel/laravel-sql-function-repository/actions)
-[![PHPStan](https://img.shields.io/github/workflow/status/michael-rubel/laravel-sql-function-repository/phpstan/main?style=flat-square&label=larastan&logo=laravel)](https://github.com/michael-rubel/laravel-sql-function-repository/actions)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/michael-rubel/laravel-sql-function-repository/run-tests.yml?branch=main&style=flat-square&label=tests&logo=github)](https://github.com/michael-rubel/laravel-sql-function-repository/actions)
+[![PHPStan](https://img.shields.io/github/actions/workflow/status/michael-rubel/laravel-sql-function-repository/phpstan.yml?branch=main&style=flat-square&label=larastan&logo=laravel)](https://github.com/michael-rubel/laravel-sql-function-repository/actions)
 
 This package provides a repository class to run SQL functions available in the database.
 Currently, only `PostgreSQL` database is supported, but if you want to add support for your database, contributions are welcomed.
 
 ---
 
-The package requires PHP `^8.x` and Laravel `^8.71` or `^9.0`.
+The package requires `PHP 8` or higher and `Laravel 9` or higher.
 
 ## #StandWithUkraine
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
